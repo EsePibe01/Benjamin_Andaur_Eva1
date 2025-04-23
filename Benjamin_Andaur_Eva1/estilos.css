@@ -1,0 +1,87 @@
+#Titulos{
+    color: rgb(255, 16, 16);
+}
+.texto{
+    color:rgb(188, 116, 255)
+}
+p._1{
+    color:rgb(40, 0, 185)
+}
+
+p._2{
+    color:blue
+}
+
+p._3{
+    color:rgb(255, 0, 0)
+}
+
+div, p{
+    color:rgb(0, 0, 0)
+}
+
+.colores{
+    border: 8px red double;
+    border-radius: 50px;
+    border-width: 20px;
+}
+
+#fondo {
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.6);
+
+    background-image: 
+        url("C:/Users/tallerespa/Benjamin_Andaur_Eva1/hacker-seguridad-cibernetica-robo-datos_734894-26.avif"),
+        url("C:/Users/tallerespa/Benjamin_Andaur_Eva1/istockphoto-1179306194-612x612.jpg"),
+        url("C:/Users/tallerespa/Benjamin_Andaur_Eva1/Ridge-Article-Banner.webp"),
+        url("C:/Users/tallerespa/Benjamin_Andaur_Eva1/Flat-style-hacker-computer-security-mask-skill-writing_341822_wh1200.png");
+
+    background-position: 0% 0%, 33% 0%, 66% 0%, 100% 0%;
+    background-size: 27% 100%, 28% 100%, 28% 100%, 25% 100%;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    font-size: 48px; 
+    font-weight: 900;
+    color: rgba(180, 12, 12, 0.9);
+    -webkit-text-stroke: 2px rgba(134, 26, 26, 0.226);
+}    
+
+.margen {
+    font-size: 25px;
+    background-color: rgb(163, 163, 163);
+    margin: 25px;
+    padding: 15px 30px 25px 30px;
+    height: auto;
+    width: 100%;
+    max-width: 2900px;
+    text-align: center;
+    line-height: 1.5;
+}
+.margen br {
+    margin-bottom: 10px;
+}
+.margen hr {
+    border: 1px solid #000;
+    margin: 20px 0;
+}
+.margen p {
+    margin: 10px 0;
+}
+.margen b {
+    font-weight: bold;
+    color: #cc0000;
+}
+.margen span {
+    font-style: italic;
+    color: #333;
+}
+.text{
+    text-align: center;
+    text-decoration: line-through;
+    
+    text-shadow: 3px 5px 5px rgb(124, 124, 124);
+}
+*{
+    font-size: 70px;
+}
